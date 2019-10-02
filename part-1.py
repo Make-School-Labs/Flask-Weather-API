@@ -27,7 +27,7 @@ def homepage():
     # 2. In between the opening and closing form tags, create an input tag
     #    that takes in text and named "city"
     # 3. Also in between the form tags, add a submit button with text "Search"
-    # link to docs
+    # More info on Forms: https://www.w3schools.com/html/html_forms.asp
     return """
         Your HTML code goes here!
     """
@@ -37,13 +37,14 @@ def homepage():
 def results_page():
     """Return HTML content of results page showing a city's temperature."""
 
-    # TODO: Get the user's city from the 'city' query parameter of the URL and
-    # store it in a variable called 'users_city'.
-    # e.g. if our URL looks like: http://localhost:5000/results?city=San+Francisco
+    # TODO: Get the user's city from the `city` query parameter of the URL using
+    # the `request.args.get()` function and store it in a variable called 
+    # `users_city`.
+    # E.g. if our URL looks like: http://localhost:5000/results?city=San+Francisco
     # We want to get the string "San Francisco".
 
 
-    # TODO: Return the 'users_city' variable to the web browser
+    # TODO: Return the 'users_city' variable to the web browser.
     
     return ""
 

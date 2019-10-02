@@ -65,8 +65,8 @@ def results_page():
     # Store this in a variable called `temp_kelvin`.
 
 
-    # TODO: Call the `kelvin_to_fahrenheit` function (defined above) and pass in our
-    # `temp_kelvin` object. Store the result in a variable called 
+    # TODO: Call the `kelvin_to_fahrenheit()` function (defined above) and pass
+    # in our `temp_kelvin` object. Store the result in a variable called 
     # `temp_fahrenheit`.
     
     

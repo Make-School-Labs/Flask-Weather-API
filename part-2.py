@@ -39,15 +39,15 @@ def results_page():
     users_city = request.args.get('city')
 
     # TODO: Make a dictionary called `query_params` and add 2 fields to it:
-    # 1. A key `q` with the value of whatever is in the `users_city` variable
-    # 2. A key `appid` with the value of whatever is in the `APP_ID` variable
+    # 1. A key `q` with the value of whatever is in the `users_city` variable.
+    # 2. A key `appid` with the value of whatever is in the `APP_ID` variable.
 
 
     # TODO: Make a call to the function `requests.get` and pass it the following
     # parameters:
     # 1. The base URL of the API call, stored in the variable BASE_URL
-    # 2. A named variable called `params` with value of whatever is in the
-    #    `query_params` dictionary
+    # 2. A named parameter called `params` with value of whatever is in the
+    #    `query_params` dictionary.
     # Store the result of this call in a variable called `response`.
 
 
